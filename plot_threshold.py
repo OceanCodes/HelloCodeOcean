@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import plotly
 from skimage import data, io, filters, exposure
 
-# input = io.imread('/input/camera.png')
+# input = io.imread('../data/camera.png')
 input = data.camera()
 val = filters.threshold_otsu(input)
 
@@ -30,4 +30,4 @@ plt.axvline(val, color='k', ls='--')
 
 plt.tight_layout()
 
-fig.savefig('/output/plot.png')
+fig.savefig('../results/plot.png')
