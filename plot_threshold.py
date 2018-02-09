@@ -8,7 +8,6 @@ This example illustrates automatic Otsu thresholding.
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-import plotly
 from skimage import data, io, filters, exposure
 
 # input = io.imread('../data/camera.png')
