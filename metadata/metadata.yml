@@ -1,2 +1,5 @@
 metadata_version: 1
 name: With GIT
+description: foo
+authors:
+- name: bo bo
