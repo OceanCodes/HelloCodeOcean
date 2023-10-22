@@ -1,5 +1,11 @@
 metadata_version: 1
-name: With GIT
-description: foo
+name: HelloCodeOcean
+description: |-
+  Otsu thresholding
+  ==================
+
+  This example illustrates automatic Otsu thresholding.
+
+  Source: [Scipy lecture notes](http://www.scipy-lectures.org/packages/scikit-image/auto_examples/plot_threshold.html)
 authors:
-- name: bo bo
+- name: CodeOcean
